@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Heuristic-based Sampling">
+        content="Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation">
   <meta name="keywords" content="prompt optimization, natural language processing, Large Language Models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Heuristic-based Sampling (EMNLP 2024, Oral, Top 3%)</title>
+  <title>Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -86,19 +86,14 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Heuristic-based Sampling (EMNLP 2024, Oral, Top 3%)</h1>
+          <h1 class="title is-1 publication-title">Code-as-Symbolic-Planner: Foundation Model-Based Robot Planning via Symbolic Code Generation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://yongchao98.github.io/YongchaoChen/">Yongchao Chen</a>,</span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=US8n_rwAAAAJ&hl=en">Jacob Arkin</a>,</span>
-            <span class="author-block">
               <a href="https://yih301.github.io">Yilun Hao</a>,</span>
             <span class="author-block">
               <a href="https://mitibmwatsonailab.mit.edu/people/yang-zhang/">Yang Zhang</a>,
-            </span>
-            <span class="author-block">
-              <a href="https://aeroastro.mit.edu/people/nicholas-roy/">Nicholas Roy</a>,
             </span>
             <span class="author-block">
               <a href="http://chuchu.mit.edu">Chuchu Fan</a>
@@ -168,7 +163,7 @@
         alt=""/>
       <h2 class="subtitle has-text-centered" style="color: red;">
         <br/>
-        We introduce an automatic prompt optimization framework for complex, multi-step agent tasks: PROMST. To handle the issues of task complexity, judging long-horizon correctness of individual actions, high prompt exploration cost, and human preference alignment, we propose the integration of human feedback, a learned score prediction model, and the modification of task score functions. Our approach generally outperforms representative baselines on eight different task environments. We show that learning a score prediction model improves the overall performance. Finally, we argue that modifying score functions can help align to optimized prompts to user preferences.
+        Unlike prior work that uses code to interface with robot action modules, we steer LLMs to generate code as solvers, planners, and checkers for TAMP tasks requiring symbolic computing, while still leveraging textual reasoning to incorporate common sense. With a multi-round guidance and answer evolution framework, the proposed Code-as-Symbolic-Planner improves success rates by average 24.1% over best baseline methods across seven typical TAMP tasks and three popular LLMs. Code-as-Symbolic-Planner shows strong effectiveness and generalizability across discrete and continuous environments, 2D/3D simulations and real-world settings, as well as single- and multi-robot tasks with diverse requirements.
         </h2>     
     </div>
   </div>
